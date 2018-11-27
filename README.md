@@ -1,6 +1,14 @@
 # airflow-gcp-spy
 An Airflow demo DAG that fetches lists of running instances from different GCP services and sends them to a Slack channel and via e-mail.
 
+### Purpose
+
+The purpose of this project is to demonstrate the funtionality of Airflow on a simple
+example.
+
+The diagram represents all the tasks and relationships in the workflow:
+![DAG diagram](img/dag.png)
+
 ### Running the DAG
 
 The easiest way to run this demo DAG is using [Google Cloud Composer](https://cloud.google.com/composer/).
