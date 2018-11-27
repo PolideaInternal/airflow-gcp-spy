@@ -13,6 +13,9 @@ The diagram represents all the tasks and relationships in the workflow:
 
 The easiest way to run this demo DAG is using [Google Cloud Composer](https://cloud.google.com/composer/).
 
+All you need to do is upload the DAG to the GCS bucket created by Composer and
+configure the 2 environment variables mentioned below in *Prerequisites*. 
+
 In case you wanted to run it in an Airflow installation outside of the Google Cloud 
 Platform (GCP), you would need to ensure that `gcloud` is installed and available to 
 Airflow, and you would have to authenticate `gloud` to your GCP project 
